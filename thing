@@ -1,0 +1,40 @@
+// $(function() {
+//   // var name = $('input#name').val();
+//   // var design = $('input[name="design"]:checked').val();
+//   // var largeCompany = $('input[name="large-company"]:checked').val();
+//   // var organizeInfo = $('input[name="organize-info"]:checked').val();
+//   // var startup = $('input[name="startup"]:checked').val();
+//   // var websites = $('input[name="websites"]:checked').val();
+//   // $('form#questions').submit(function(e) {
+//
+//
+//     e.preventDefault();
+//
+//       // if (name) {
+//       //   $('.student').text(name);
+//       // }
+//       // if (design === 'true') {
+//       //   $('.design-track').show();
+//       // }
+//
+//
+//
+//   });
+// });
+
+
+
+// $('input:radio[value="' + answer + '"]').each(function () {
+//   'input:radio[value="' + answer + '"]'
+//   alert(answer);
+// });
+$(function() {
+  $('form#questions').submit(function(e) {
+    var answer;
+    $('input:radio[value="' + answer + '"]').each(function() {
+      var answers = 'input:radio[value="' + answer + '"]';
+
+      alert(answer);
+    });
+    });
+  });

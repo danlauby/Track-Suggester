@@ -1,0 +1,26 @@
+body {
+  background-color: #0B0308;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
+.design-track, .php-track, .ruby-track, .c-sharp-track {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  background-color: #B0ACAF;
+  border-radius: 5px;
+}
+.show {
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #B0ACAF;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-bottom: -20px;
+  margin: 20px;
+}

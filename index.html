@@ -12,85 +12,79 @@
     <div class="container">
       <h1>What Epicodus track would you enjoy best?</h1>
       <form id="questions">
-        <div class="form-group row has-success form-control-danger">
-          <label for="name">Enter your name:</label>
-          <input type="text" id="name" class="form-control form-control-success" id="inputHorizontalSuccess">
-          <div class="form-control-feedback">Please enter your name</div>
-        </div>
+
         <div class="form-group">
           <h2>I enjoy drawing</h2>
           <label for="form-check-label">
-            <input type="radio" name="design" class="form-check-input" checked>
+            <input type="radio" name="design" value="true" class="form-check-input" checked>
             True
           </label>
           <label for="form-check-label">
-            <input type="radio" name="design" class="form-check-input">
+            <input type="radio" name="design" value="false" class="form-check-input">
             False
           </label>
         </div>
         <div class="form-group">
           <h2>Working for a large company would be ideal</h2>
           <label for="form-check-label">
-            <input type="radio" name="large-company" class="form-check-input" checked>
+            <input type="radio" name="large-company" value="true" class="form-check-input" checked>
             True
           </label>
           <label for="form-check-label">
-            <input type="radio" name="large-company" class="form-check-input">
+            <input type="radio" name="large-company" value="false" class="form-check-input">
             False
           </label>
         </div>
         <div class="form-group">
           <h2>I like to organize information</h2>
           <label for="form-check-label">
-            <input type="radio" name="organize-info" class="form-check-input" checked>
+            <input type="radio" name="organize-info" value="true" class="form-check-input" checked>
             True
           </label>
           <label for="form-check-label">
-            <input type="radio" name="organize-info" class="form-check-input">
+            <input type="radio" name="organize-info" value="false" class="form-check-input">
             False
           </label>
         </div>
         <div class="form-group">
           <h2>I want to be a part of a startup</h2>
           <label for="form-check-label">
-            <input type="radio" name="startup" class="form-check-input" checked>
+            <input type="radio" name="startup" value="true" class="form-check-input" checked>
             True
           </label>
           <label for="form-check-label">
-            <input type="radio" name="startup" class="form-check-input">
+            <input type="radio" name="startup" value="false" class="form-check-input">
             False
           </label>
         </div>
         <div class="form-group">
           <h2>Buliding web sites is fun!</h2>
           <label for="form-check-label">
-            <input type="radio" name="websites" class="form-check-input" checked>
+            <input type="radio" name="websites" value="true" class="form-check-input" checked>
             True
           </label>
           <label for="form-check-label">
-            <input type="radio" name="websites" class="form-check-input">
+            <input type="radio" name="websites" value="false" class="form-check-input">
             False
           </label>
         </div>
         <button type="submit" class="btn" name="button">Find out which track is best for you!</button>
       </form>
+      <div class="show">
+        <div class="design-track">
+          <h2>You have an eye for design! The design/CSS track would be best for you!</h2>
+          <img src="img/html5-css3-logo.png" alt="image of HTML5 and CSS3 logos">
+        </div>
+        <div class="php-track">
+          <h2>You must love to make lists for everything! Check out the PHP/Drupal track!</h2>
+          <img src="img/php-logo.png" alt="image of PHP logo">
+        </div>
+        <div class="c-sharp-track">
+          <h2>You like to roll with the big guns! I would suggest learning C# and giving Microsoft a call!</h2>
+          <img src="img/c-sharp-net-logo.png" alt="image of C# and .NET logos">
+        </div>
+      </div>
 
-      <div class="design-track">
-        <h2><span class="student"></span>, you have an eye for design! The design/CSS track would be best for you!</h2>
-        <img src="img/html5-css3-logo.png" alt="image of HTML5 and CSS3 logos">
-      </div>
-      <div class="php-track">
-        <h2><span class="student"></span>, you must love to make lists for everything! Check out the PHP/Drupal track!</h2>
-        <img src="img/php-logo.png" alt="image of PHP logo">
-      </div>
-      <div class="ruby-track">
-        <h2><span class="student"></span>, let's hit the ground running and be a part of that cool new startup using Ruby!</h2>
-        <img src="img/ruby-logo.png" alt="image of Ruby logo">
-      </div>
-      <div class="c-sharp-track">
-        <h2><span class="student"></span>, you like to roll with the big guns! I would suggest learning C# and giving Microsoft a call!</h2>
-        <img src="img/c-sharp-net-logo.png" alt="image of C# and .NET logos">
-      </div>
     </div>
   </body>
 </html>
