@@ -1,9 +1,14 @@
 body {
-  background-color: #0B0308;
+  background-image: url('../img/circuit-board.jpg');
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: fantasy,sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: monospace;
 }
 
 .design-track, .php-track, .ruby-track, .c-sharp-track {
@@ -12,15 +17,27 @@ h1 {
 
 .container {
   text-align: center;
-  background-color: #B0ACAF;
+  background-color: #000;
   border-radius: 5px;
+  color: #fff;
 }
 .show {
   font-family: sans-serif;
   font-weight: bold;
-  background-color: #B0ACAF;
+  background-color: #fff;
   border-radius: 10px;
   padding-top: 100px;
   padding-bottom: -20px;
   margin: 20px;
+}
+
+#form {
+  background-color: #fff;
+  margin: 80px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
 }

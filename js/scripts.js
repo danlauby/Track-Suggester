@@ -6,11 +6,11 @@ $('form#questions').submit(function(e) {
     var startup = $('input[name="startup"]:checked').val();
     var websites = $('input[name="websites"]:checked').val();
     if (design === 'true' || websites === 'true' || startup === 'true') {
-      $('.design-track').toggle();
+      $('.design-track').slideToggle();
     } else if (largeCompany === 'true' || organizeInfo === 'true' || websites === 'true' && design === 'false') {
-      $('.php-track').toggle();
+      $('.php-track').slideToggle();
     } else if (largeCompany === 'true' && organizeInfo === 'true' && design === 'false' || startup === 'false') {
-      $('.c-sharp-track').toggle();
+      $('.c-sharp-track').slideToggle();
     }
     e.preventDefault();
   });
