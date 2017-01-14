@@ -7,10 +7,12 @@ $('form#questions').submit(function(e) {
     var websites = $('input[name="websites"]:checked').val();
     if (design === 'true' || websites === 'true' || startup === 'true') {
       $('.design-track').slideToggle();
-    } else if (largeCompany === 'true' || organizeInfo === 'true' || websites === 'true' && design === 'false') {
+    } else if (organizeInfo === 'true' || websites === 'true' && design === 'false') {
       $('.php-track').slideToggle();
-    } else if (largeCompany === 'true' && organizeInfo === 'true' && design === 'false' || startup === 'false') {
+    } else if (largeCompany === 'true') {
       $('.c-sharp-track').slideToggle();
+    } else {
+      $('.noMatch').append('<h2>I think you could go with any track!</h2>');
     }
     e.preventDefault();
   });

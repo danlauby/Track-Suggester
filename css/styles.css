@@ -19,17 +19,31 @@ h2 {
 .container {
   text-align: center;
   background-color: #000;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
+  height: 1050px;
 }
 .show {
   font-family: sans-serif;
   font-weight: bold;
   background-color: #fff;
   border-radius: 10px;
-  padding-top: 100px;
-  padding-bottom: -20px;
-  margin: 20px;
+  width: 100%;
+  height: 150px;
+  padding-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.design-track, .php-track, .c-sharp-track {
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 300px;
 }
 
 #form {
