@@ -14,6 +14,7 @@ h2 {
 
 .design-track, .php-track, .ruby-track, .c-sharp-track {
   display: none;
+  padding-top: 50px;
 }
 
 .container {
