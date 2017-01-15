@@ -5,11 +5,26 @@ body {
 h1 {
   font-family: fantasy,sans-serif;
   font-size: 60px;
+  color: #fff;
 }
 
 h2 {
   font-family: monospace;
   color: gray;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  margin-right: -40px;
+}
+
+ol {
+  list-style-type: none;
+  font-family: monospace;
+  font-style: italic;
+  font-size: 25px;
+  color: lightgreen;
 }
 
 .design-track, .php-track, .ruby-track, .c-sharp-track {
@@ -24,6 +39,7 @@ h2 {
   color: #fff;
   height: 1050px;
 }
+
 .show {
   font-family: sans-serif;
   font-weight: bold;
@@ -47,13 +63,13 @@ h2 {
   padding-bottom: 300px;
 }
 
+.btn {
+  background-color: #fff;
+  color: #000;
+}
+
 #form {
   background-color: #fff;
   margin: 80px;
   border-radius: 10px;
-}
-
-.btn {
-  background-color: #fff;
-  color: #000;
 }
